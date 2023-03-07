@@ -26,7 +26,7 @@
             "stayConnected": [
                 "value": self.stayConnectedURL
             ],
-            "textColor": self.getColorHex(color: .black)
+            "textColor": self.getColorHex(color: .white)
         ]
         
         let jsonData = try? JSONSerialization.data(withJSONObject: params, options: [])
